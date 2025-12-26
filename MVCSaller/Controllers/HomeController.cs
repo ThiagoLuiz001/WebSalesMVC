@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using MVCSaller.Models;
+using MVCSaller.Models.ViewModels;
 
 namespace MVCSaller.Controllers
 {
