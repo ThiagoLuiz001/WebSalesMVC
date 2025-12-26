@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JCZN1sIgAWg=",
+  "dgSpecHash": "fLlLmoJmwQc=",
   "success": true,
   "projectFilePath": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\MVCSaller.csproj",
   "expectedPackageFiles": [
@@ -113,6 +113,7 @@
     "C:\\Users\\Thiago Luiz\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\8.0.22\\microsoft.visualstudio.web.codegeneration.utils.8.0.22.nupkg.sha512",
     "C:\\Users\\Thiago Luiz\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\8.0.22\\microsoft.visualstudio.web.codegenerators.mvc.8.0.22.nupkg.sha512",
     "C:\\Users\\Thiago Luiz\\.nuget\\packages\\mono.texttemplating\\2.3.1\\mono.texttemplating.2.3.1.nupkg.sha512",
+    "C:\\Users\\Thiago Luiz\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
     "C:\\Users\\Thiago Luiz\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Thiago Luiz\\.nuget\\packages\\nuget.common\\6.11.0\\nuget.common.6.11.0.nupkg.sha512",
     "C:\\Users\\Thiago Luiz\\.nuget\\packages\\nuget.configuration\\6.11.0\\nuget.configuration.6.11.0.nupkg.sha512",
@@ -123,6 +124,7 @@
     "C:\\Users\\Thiago Luiz\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\Thiago Luiz\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\Thiago Luiz\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
+    "C:\\Users\\Thiago Luiz\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.2\\pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
     "C:\\Users\\Thiago Luiz\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\Thiago Luiz\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
     "C:\\Users\\Thiago Luiz\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",

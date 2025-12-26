@@ -1,9 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Configuration;
+using Microsoft.EntityFrameworkCore;
+using Pomelo.EntityFrameworkCore.MySql ;
 using Microsoft.Extensions.DependencyInjection;
 using MVCSaller.Data;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<MVCSallerContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("MVCSallerContext") ?? throw new InvalidOperationException("Connection string 'MVCSallerContext' not found.")));
+{
+    var cs = builder.Configuration.GetConnectionString("MVCSallerContext");
+    options.UseMySql(cs, ServerVersion.AutoDetect(cs),builder => builder.MigrationsAssembly("MVCSaller"));
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
