@@ -9,7 +9,7 @@ builder.Services.AddDbContext<MVCSallerContext>(options =>
     var cs = builder.Configuration.GetConnectionString("MVCSallerContext");
     options.UseMySql(cs, ServerVersion.AutoDetect(cs),builder => builder.MigrationsAssembly("MVCSaller"));
 });
-
+builder.Services.AddScoped<SeedingService>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -22,7 +22,18 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
 
+    var context = services.GetRequiredService<MVCSallerContext>();
+    var seed = services.GetRequiredService<SeedingService>();
+
+    if (app.Environment.IsDevelopment())
+    {
+        seed.Seed();
+    }
+}
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
