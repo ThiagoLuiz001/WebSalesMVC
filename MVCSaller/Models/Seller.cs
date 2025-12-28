@@ -7,6 +7,7 @@
         public string Email { get; set; } = string.Empty;
         public decimal BaseSalary { get; set; }
         public DateTime BirthDate { get; set; }
+        public int DepartmentId { get; set; }
         public Department Department { get; set; } = new Department();
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 

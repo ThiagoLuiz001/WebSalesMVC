@@ -12,6 +12,7 @@ builder.Services.AddDbContext<MVCSallerContext>(options =>
 });
 builder.Services.AddScoped<SeedingService>();
 builder.Services.AddScoped<SellersService>();
+builder.Services.AddScoped<DepartmentService>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
