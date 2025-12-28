@@ -1,5 +1,6 @@
 ﻿using MVCSaller.Services;
 using Microsoft.AspNetCore.Mvc;
+using MVCSaller.Models;
 
 namespace MVCSaller.Controllers
 {
@@ -15,6 +16,19 @@ namespace MVCSaller.Controllers
         {
             
             return View(_sellersService.FindAll());
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Seller seller)
+        {
+            _sellersService.Insert(seller);
+            return RedirectToAction(nameof(Index));
         }
     }
 }
