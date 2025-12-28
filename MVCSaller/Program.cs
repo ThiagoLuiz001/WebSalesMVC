@@ -1,5 +1,6 @@
 ﻿using System.Configuration;
 using Microsoft.EntityFrameworkCore;
+using MVCSaller.Services;
 using Pomelo.EntityFrameworkCore.MySql ;
 using Microsoft.Extensions.DependencyInjection;
 using MVCSaller.Data;
@@ -10,6 +11,7 @@ builder.Services.AddDbContext<MVCSallerContext>(options =>
     options.UseMySql(cs, ServerVersion.AutoDetect(cs),builder => builder.MigrationsAssembly("MVCSaller"));
 });
 builder.Services.AddScoped<SeedingService>();
+builder.Services.AddScoped<SellersService>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -24,6 +26,7 @@ if (!app.Environment.IsDevelopment())
 }
 using (var scope = app.Services.CreateScope())
 {
+    
     var services = scope.ServiceProvider;
 
     var context = services.GetRequiredService<MVCSallerContext>();
