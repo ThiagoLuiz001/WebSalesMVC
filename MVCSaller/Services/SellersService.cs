@@ -1,5 +1,6 @@
 ﻿using MVCSaller.Data;
 using MVCSaller.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace MVCSaller.Services
 {
@@ -25,7 +26,7 @@ namespace MVCSaller.Services
 
         public Seller? FindByID(int id)
         {
-            return _context.Seller.FirstOrDefault(x=> x.Id == id);
+            return _context.Seller.Include(x=>x.Department).FirstOrDefault(x=> x.Id == id);
         }
 
         public void Remove(int id)
