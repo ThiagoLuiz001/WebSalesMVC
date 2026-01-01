@@ -1,4 +1,6 @@
 ﻿using System.Configuration;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using MVCSaller.Services;
 using Pomelo.EntityFrameworkCore.MySql ;
@@ -21,6 +23,14 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
+    var enUS = new CultureInfo("en-US");
+    var localizationOpt = new RequestLocalizationOptions
+    {
+        DefaultRequestCulture = new RequestCulture(enUS),
+        SupportedCultures = new List<CultureInfo> { enUS },
+        SupportedUICultures = new List<CultureInfo> { enUS }
+    };
+    app.UseRequestLocalization(localizationOpt);
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
