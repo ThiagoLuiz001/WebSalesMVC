@@ -35,12 +35,20 @@ namespace MVCSaller.Services
 
         public async Task RemoveAsync(int id)
         {
-            var obj = await _context.Seller.FindAsync(id);
-            if (obj != null)
+            try
             {
-                _context.Seller.Remove(obj);
-               await _context.SaveChangesAsync();
+                var obj = await _context.Seller.FindAsync(id);
+                if (obj != null)
+                {
+                    _context.Seller.Remove(obj);
+                    await _context.SaveChangesAsync();
+                }
             }
+            catch(DbUpdateException ex)
+            {
+                throw new IntegrityException(ex.Message);
+            }
+
         }
 
         public async Task UpdateAsync(Seller obj)
