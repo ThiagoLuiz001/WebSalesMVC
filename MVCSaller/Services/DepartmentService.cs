@@ -1,4 +1,5 @@
-﻿using MVCSaller.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using MVCSaller.Data;
 using MVCSaller.Models;
 
 namespace MVCSaller.Services
@@ -12,9 +13,9 @@ namespace MVCSaller.Services
             _context = context;
         }
 
-        public List<Department> FindAll()
+        public async Task<List<Department>> FindAllAsync()
         {
-            return _context.Department.OrderBy(x=> x.Name).ToList();
+            return await _context.Department.OrderBy(x=> x.Name).ToListAsync();
         }
     }
 }

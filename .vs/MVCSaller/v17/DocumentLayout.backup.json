@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|solutionrelative:mvcsaller\\controllers\\sellerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|c:\\cursos udemy\\c#\\mvc\\mvcsaller\\mvcsaller\\services\\sellersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|solutionrelative:mvcsaller\\services\\sellersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|c:\\cursos udemy\\c#\\mvc\\mvcsaller\\mvcsaller\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|solutionrelative:mvcsaller\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|c:\\cursos udemy\\c#\\mvc\\mvcsaller\\mvcsaller\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|solutionrelative:mvcsaller\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|c:\\cursos udemy\\c#\\mvc\\mvcsaller\\mvcsaller\\views\\sellers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|solutionrelative:mvcsaller\\views\\sellers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|c:\\cursos udemy\\c#\\mvc\\mvcsaller\\mvcsaller\\models\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|solutionrelative:mvcsaller\\models\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|c:\\cursos udemy\\c#\\mvc\\mvcsaller\\mvcsaller\\services\\sellersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|solutionrelative:mvcsaller\\services\\sellersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{072C837B-08C4-4743-8EEC-BF6B114C2F1C}|MVCSaller\\MVCSaller.csproj|c:\\cursos udemy\\c#\\mvc\\mvcsaller\\mvcsaller\\services\\exceptions\\dbconcurrrencyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,8 +70,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "MVCSaller\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "MVCSaller\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T23:58:47.973Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -99,56 +120,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Views\\Sellers\\Create.cshtml",
-              "RelativeDocumentMoniker": "MVCSaller\\Views\\Sellers\\Create.cshtml",
-              "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Views\\Sellers\\Create.cshtml*",
-              "RelativeToolTip": "MVCSaller\\Views\\Sellers\\Create.cshtml*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-01T23:31:51.808Z",
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "MVCSaller\\Services\\DepartmentService.cs",
+              "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "MVCSaller\\Services\\DepartmentService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T23:49:49.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Program.cs",
-              "RelativeDocumentMoniker": "MVCSaller\\Program.cs",
-              "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Program.cs",
-              "RelativeToolTip": "MVCSaller\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwCAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T23:10:36.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "MVCSaller\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "MVCSaller\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-01T17:34:24.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Models\\ViewModels\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "MVCSaller\\Models\\ViewModels\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Models\\ViewModels\\ErrorViewModel.cs",
-              "RelativeToolTip": "MVCSaller\\Models\\ViewModels\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T17:33:05.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Views\\Sellers\\Edit.cshtml",
               "RelativeDocumentMoniker": "MVCSaller\\Views\\Sellers\\Edit.cshtml",
@@ -156,12 +140,11 @@
               "RelativeToolTip": "MVCSaller\\Views\\Sellers\\Edit.cshtml",
               "ViewState": "AgIAABkAAAAAAAAAAAAUwC4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-01T17:08:19.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-01T17:08:19.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "DbConCurrrencyException.cs",
               "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Services\\Exceptions\\DbConCurrrencyException.cs",
               "RelativeDocumentMoniker": "MVCSaller\\Services\\Exceptions\\DbConCurrrencyException.cs",
@@ -179,14 +162,75 @@
               "RelativeDocumentMoniker": "MVCSaller\\Controllers\\SellersController.cs",
               "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Controllers\\SellersController.cs",
               "RelativeToolTip": "MVCSaller\\Controllers\\SellersController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwCYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAwGUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-28T16:46:46.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "SellersService.cs",
+              "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Services\\SellersService.cs",
+              "RelativeDocumentMoniker": "MVCSaller\\Services\\SellersService.cs",
+              "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Services\\SellersService.cs",
+              "RelativeToolTip": "MVCSaller\\Services\\SellersService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T16:06:59.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Models\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MVCSaller\\Models\\ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Models\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "MVCSaller\\Models\\ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T17:33:05.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "MVCSaller\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "MVCSaller\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-01T17:34:24.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Program.cs",
+              "RelativeDocumentMoniker": "MVCSaller\\Program.cs",
+              "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Program.cs",
+              "RelativeToolTip": "MVCSaller\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwCAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T23:10:36.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Views\\Sellers\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVCSaller\\Views\\Sellers\\Create.cshtml",
+              "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Views\\Sellers\\Create.cshtml",
+              "RelativeToolTip": "MVCSaller\\Views\\Sellers\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-01T23:31:51.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Seller.cs",
               "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Models\\Seller.cs",
               "RelativeDocumentMoniker": "MVCSaller\\Models\\Seller.cs",
@@ -194,12 +238,11 @@
               "RelativeToolTip": "MVCSaller\\Models\\Seller.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAgwBoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T23:17:43.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-01T23:17:43.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Services\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "MVCSaller\\Services\\Exceptions\\NotFoundException.cs",
@@ -211,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Views\\Sellers\\Index.cshtml",
               "RelativeDocumentMoniker": "MVCSaller\\Views\\Sellers\\Index.cshtml",
@@ -223,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Views\\Sellers\\Details.cshtml",
               "RelativeDocumentMoniker": "MVCSaller\\Views\\Sellers\\Details.cshtml",
@@ -235,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Views\\Sellers\\Delete.cshtml",
               "RelativeDocumentMoniker": "MVCSaller\\Views\\Sellers\\Delete.cshtml",
@@ -244,18 +287,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-01T16:17:19.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SellersService.cs",
-              "DocumentMoniker": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Services\\SellersService.cs",
-              "RelativeDocumentMoniker": "MVCSaller\\Services\\SellersService.cs",
-              "ToolTip": "C:\\Cursos Udemy\\C#\\MVC\\MVCSaller\\MVCSaller\\Services\\SellersService.cs",
-              "RelativeToolTip": "MVCSaller\\Services\\SellersService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAiwDUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T16:06:59.606Z"
             }
           ]
         }
